@@ -6,5 +6,8 @@ export default defineConfig({
     plugins: [
         reactRefresh(), 
         vue()
-    ]
+    ],
+    server: {
+        port: 7400,
+    }
 })
